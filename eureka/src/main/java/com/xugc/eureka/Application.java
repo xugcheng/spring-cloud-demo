@@ -1,18 +1,17 @@
-package com.xugc.eureka.server;
+package com.xugc.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * 服务注册中心实例
+ * 服务提供方实体,到"服务注册中心"注册接口.
  */
-@EnableEurekaServer
+@EnableEurekaClient
 @SpringBootApplication
 public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
-
 }
