@@ -1,4 +1,4 @@
-package com.xugc.eureka.web;
+package com.xugc.server.web;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

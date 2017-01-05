@@ -1,4 +1,4 @@
-package com.xugc.eureka;
+package com.xugc.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
